@@ -21,7 +21,7 @@ def jobsequencing(arr: list, m: int) -> list:
 
         max_list.append(max_item)  # appending the result 
 
-    return [i[0] for i in max_list] # return list of jobs.
+    return [[i[0],i[1]] for i in max_list] # return list of jobs.
 
 
 # Driver code:
