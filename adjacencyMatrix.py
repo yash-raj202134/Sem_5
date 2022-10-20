@@ -14,7 +14,7 @@ class Graph:
     
     def add_edge(self,edg):
         '''a method that adds the edges to make a graph'''
-        edge = list(edge.split(','))
+        edg = list(edg.split(','))
         edg = [int(i) for i in edg]
         if edg[0] == edg[1] :
             print(f"Same vertex {edg[0]} and {edg[1]}")
