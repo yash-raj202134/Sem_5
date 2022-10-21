@@ -3,9 +3,6 @@
 # where edges are represented as 
 # {Node1: (Node2, Weight1), Node2: (Node3, Weight2)}
 
-
-# edge={n1:(n2,w1),n2:(n3,w2),n3:(n4,w3),n4:(n5,w4)}
-
 class Graph:
     def __init__(self,no_of_nodes) -> None:
         self.No_of_node = no_of_nodes
